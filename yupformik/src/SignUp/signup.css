@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.generalsectiondiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    min-height: 400px;
+    text-align: center;
+}
+
+.mainsection {
+    border: 1px solid;
+    background-color: #FFFFFF;
+    min-height: 550px;
+    max-width: 500px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px rgb(170, 170, 170);
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+
+.create {
+    font-size: 1.5rem;
+}
+
+.titleface {
+    font-size: 3.4rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(73, 73, 239);
+}
+
+.it {
+    font-size: 1rem;
+    color: #606770;
+}
+
+.upinp {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.firstname {
+    max-width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(201, 196, 196);
+}
+
+.lastname {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(201, 196, 196);
+}
+
+.emailinp {
+    max-width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(201, 196, 196);
+}
+
+.passwordinp {
+
+    max-width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(201, 196, 196);
+}
+
+.emailandpass {
+    padding-top: 10px;
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+#birthday {
+
+    margin-top: 30px;
+    width: 170px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.genderchoose {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.femalegender {
+
+    width: 110px;
+    height: 32px;
+    border: 1px solid;
+    border-color: #c0c2c5;
+    padding-top: 2px;
+    border-radius: 5px;
+}
+
+.malegender {
+    width: 120px;
+    height: 32px;
+    border: 1px solid;
+    border-color: #c0c2c5;
+    padding-top: 2px;
+    border-radius: 5px;
+}
+
+.customgender {
+    width: 120px;
+    height: 32px;
+    border: 1px solid;
+    border-color: #c0c2c5;
+    padding-top: 2px;
+    border-radius: 5px;
+}
+
+.firstp {
+    max-width: 90%;
+    font-size: 0.8rem;
+}
+
+.lastp {
+    max-width: 90%;
+    font-size: 0.8rem;
+}
+
+.lastdiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.lastdiv button {
+    width: 195px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    background-color: rgb(13, 172, 13);
+    cursor: pointer;
+}
+
+.lastdiv button:hover {
+    transition: 0.5s;
+    background-color: rgb(8, 163, 8);
+}
+
+.lastdiv a {
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+.learnmore {
+    color: #385898;
+    text-decoration: none;
+}
+
+.learnmore:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    text-decoration: none;
+    color: #385898;
+}
+
+.terms:hover {
+    text-decoration: underline;
+}
+
+.privacy {
+    text-decoration: none;
+    color: #385898;
+}
+
+.privacy:hover {
+    text-decoration: underline;
+}
+
+.cookies {
+    text-decoration: none;
+    color: #385898;
+}
+
+.cookies:hover {
+    text-decoration: underline;
+}
+
+.already {
+    color: blue;
+}
+
+.firstname:required {
+    border-color: red;
+}
+
+.lastname:required {
+    border-color: red;
+}
+
+.emailinp:required {
+    border-color: red;
+}
+
+.passwordinp:required {
+    border-color: red;
+}
+
+#birthday:required {
+
+    border-color: red;
+}
+
+.genderchoose:required {
+    border-color: red;
+}
+
+.femalegender:required {
+    border-color: red;
+}
